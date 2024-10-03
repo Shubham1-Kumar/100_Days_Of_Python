@@ -533,7 +533,7 @@ placeholder=""
 for position in range(0,len(chosen_word)-1):
     placeholder += "_"
 print(placeholder)
-print(chosen_word)
+# print(chosen_word)
 
 # CREATE A VARIABLE FOR GAME OVER
 game_over = False

@@ -1,3 +1,6 @@
+import random
+from pydoc import describe
+
 data = [
     {
         'name': 'Instagram',
@@ -253,7 +256,7 @@ data = [
     },
     {
         'name': 'Virat Kohli',
-        'follower_count': 55,
+        'follower_count': 250,
         'description': 'Cricketer',
         'country': 'India'
     },
@@ -300,3 +303,8 @@ data = [
         'country': 'United States'
     }
 ]
+
+# info = random.choice(data)
+#
+# print(info['name']+" --> ",info['description'],info['country'])
+

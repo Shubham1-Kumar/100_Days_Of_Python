@@ -44,7 +44,7 @@ for s in range(0,nr_symbols):
 for n in range(0,nr_numbers):
     number_to_be_add = numbers[random.randint(0,len(numbers)-1)]
     password_list.append(number_to_be_add)
-print(password_list)
+# print(password_list)
 final_password = ""
 for p in password_list:
     final_password += p
